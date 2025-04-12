@@ -1,0 +1,9 @@
+body {
+    background-color: pink; /* update the main background color for your page */
+}
+
+main {
+    background-color: white;
+    margin: 30px;
+    min-height: 100vh;
+}
