@@ -1,6 +1,6 @@
 body {
     background-color: pink; /* update the main background color for your page */
-    font-family: "Cedarville Cursive", cursive;
+    font-family: "Playfair Display", serif;
     font-style: normal;
 }
 
@@ -11,15 +11,23 @@ main {
 }
 
 p {
-    color: #0a45f2;
+    color: #f20a8d;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 1.2;
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 600;
 }
 
 h2 {
     font-size: 2rem;
-    line-height: 1.2;
+    line-height: 1.4;
+    font-weight:600
+}
+h3 {
+    font-weight: 600;
+}
+h4 {
+    font-weight: 600;
 }
