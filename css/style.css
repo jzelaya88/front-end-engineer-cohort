@@ -1,6 +1,6 @@
 body {
     background-color: pink; /* update the main background color for your page */
-    font-family: "Playfair Display", serif;
+    /*font-family: "Playfair Display", serif;*/
     font-style: normal;
 }
 
@@ -25,29 +25,24 @@ h2 {
     line-height: 1.4;
     font-weight:600
 }
-h3 {
-    font-weight: 600;
-}
-h4 {
-    font-weight: 600;
+a:hover,
+a:focus{
+    text-shadow: 1px 1px 11px green;
 }
 
-p {
-    color: #700808;  
- } 
+.active-link {
+    font-weight: bold;
+    text-decoration:none;
+}
 
- body {
-    font-family: "Arvo", serif;
- } 
+.show-on-hover {
+    display:none;
+}
 
- h3, h4 {
-    font-size: 40px;    
-    line-height: 0.5; 
- }     
+.scavenger-hunt:hover .show-on-hover{
+    display: block;
+}
 
-h3 {
-    font-weight: 600; 
-     } 
-h4 {
-    font-weight: 500; 
-     } 
+.scavenger-hunt:focus .show-on-hover{
+    display: block;
+}
