@@ -27,7 +27,7 @@ h2 {
 }
 a:hover,
 a:focus{
-    text-shadow: 1px 1px 11px green;
+    text-shadow: 1px 1px 11px orange;
 }
 
 .active-link {
@@ -45,4 +45,20 @@ a:focus{
 
 .scavenger-hunt:focus .show-on-hover{
     display: block;
+}
+
+.blog-img{
+    border:3px dotted lightblue;
+    width: 60%;
+    height: auto;
+    padding: 15px;
+    margin: 20px 10px;
+}
+
+.gallery-img {
+    border: 2px solid steelblue;
+    width: 29%;
+    height: auto;
+    padding: 3px;
+    margin: 1%;
 }
